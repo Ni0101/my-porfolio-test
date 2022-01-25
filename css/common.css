@@ -1,0 +1,63 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: SVNGilroyMedium;
+    font-size: 1.6em;
+    font-weight: normal;
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 42px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+a:active {
+    color: #0000FF;
+}
+
+::selection {
+    color: white;
+    background-color: black;
+}
+
+@font-face {
+    font-family: SVNGilroyMedium;
+    src: url(../fonts/SVN-Gilroy-Medium.otf);
+}
+
+@font-face {
+    font-family: SVNGilroyMedium;
+    src: url(../fonts/SVN-Gilroy-Bold.otf);
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+input {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+input:hover {
+    opacity: 0.8;
+}

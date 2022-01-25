@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link href="/fontawesome/css/all.css" rel="stylesheet">
+    <style>
+        .unline-contact:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="top-menu">
+            <div class="top-menu-inner">
+                <a href="contact.html" class="space-15px unline-contact">Contact</a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook-f space-15px"></i>
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <i class="fab fa-linkedin-in space-15px"></i>
+                </a>
+                <a href="https://github.com/" target="_blank">
+                    <i class="fab fa-github space-15px"></i>
+                </a>
+                <form class="space-15px">
+                    <select>
+                        <option value="Share">Share</option>
+                    </select>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main">
+                <section >
+                    <section class="sidebar">
+                        <div class="avatar">
+                            <img src="img/Avatar.png" alt="Avatar">
+                            <p class="avatar--myname">My Name</p>
+                            <div class="avatar--mail-copy">
+                                <a href="mailto:myemail@gmail.com">myemail@gmail.com</a>
+                                <img src="img/copy.svg" alt="Copy">
+                            </div>
+                        </div>
+                        <div class="sidebar__link">
+                            <a class="link--my-portfolio" href="index.html">
+                                <img src="img/my-portfolio.svg" alt="My portfolio">My Portfolio
+                            </a>
+                            <a class="link--about-me" href="about-me.html">
+                                <img src="img/about-me.svg" alt="About me">About me
+                            </a>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section class="picture">
+                        <picture>
+                            <source media="(min-width:650px)" srcset="img/desktop.jpg">
+                            <source media="(min-width:465px)" srcset="img/tablet.jpg">
+                            <img src="img/mobile.jpg" alt="desktop">
+                        </picture>
+                    </section>
+                    <section class="contact">
+                        <h1>Contact</h1>
+                        <form>
+                            <input class="name-email" value="Name" placeholder="Name"><br>
+                            <input class="name-email" type="email" name="email" placeholder="Email"><br>
+                            <textarea name="help" row="10" cols="30">How can I help?</textarea><br>
+                            <input class="send" type="submit" value="Send">
+                        </form>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2020 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

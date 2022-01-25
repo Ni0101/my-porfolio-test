@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+}
+
+* h1 {
+    margin: 0;
+}
+
+.top-menu {
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    height: 42px;
+    color: white;
+    font-size: 1em;
+    z-index: 999;
+}
+
+.top-menu-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 50px;
+}
+
+.top-menu-inner a {
+    color: white;
+}
+
+.top-menu-inner select {
+    color: white;
+    background: black;
+    border: none;
+}
+
+.space-15px {
+    padding-left: 25px;
+}
+
+.space-15px select {
+    font-size: 1em;
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+}
+
+.sidebar {
+    flex: 1;
+    margin-right: 100px;
+    max-width: 17%;
+}
+
+.avatar {
+    text-align: center;
+    line-height: .2;
+    margin-bottom: 55px;
+}
+
+.avatar--myname {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.avatar--mail-copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar--mail-copy a {
+    color: #828282;
+    margin-right: 5px;
+}
+
+.avatar--mail-copy button {
+    border: none;
+    background-color: white;
+}
+
+.avatar--mail {
+    font-size: 14px;
+    color: #828282;
+    margin-right: 5px;
+}
+
+.sidebar__link {
+    display: flex;
+    flex-direction: column;
+    line-height: 3;
+}
+
+.link--my-portfolio {
+    font-size: .875em;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.link--about-me {
+    color: #BDBDBD;
+    border-left: 5px solid #EB5757;
+    height: 30px;
+    margin-left: -30px;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__link img {
+    margin-right: 25px;
+}
+
+.main-content {
+    flex: 2;
+}
+
+.about-me {
+    margin-bottom: 60px;
+}
+
+.about-me h1 {
+    font-size: 4em;
+}
+
+.about-me span {
+    color: #EB5757;
+}
+
+.about-me p {
+    width: 475px;
+    height: 90px;
+    line-height: 2;
+}
+
+h3 {
+    font-size: 2.25em;
+    color: #828282;
+    margin-top: 0;
+}
+
+.percent-table {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 70px;
+}
+
+.skill {
+    padding: 0 10px;
+}
+
+.languages {
+    padding: 0 10px;
+}
+
+.percent-table table {
+    width: 535px;
+    background-color: rgba(242, 242, 242, 1);
+    border-collapse: collapse;
+}
+
+.percent-table tr {
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+}
+
+.percent-table tr:last-child {
+    border-bottom: none;
+}
+
+.percent {
+    background: #EB5757;
+    width: var(--percent);
+    height: 5px;
+    border: 2px solid #EB5757;
+}
+
+.percent-table th {
+    font-size: 1.125em;    
+    text-align: start;
+}
+
+.percent-table tr,th:first-child {
+    width: 190px;
+    padding-left: 30px;
+}
+
+.percent-table tr,td:first-child {
+    width: 190px;
+    padding-left: 30px;
+}
+
+.percent-table img {
+    vertical-align: bottom;
+    padding-right: 10px;
+}
+/* 
+.percent-table td {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.favorited-songs {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.favorited-songs div {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.favorited-songs div p:first-child {
+    font-size: 1.125em;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.favorited-songs audio {
+    height: 30px;
+    background: #828282;
+    border-radius: 8px;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    margin-bottom: 70px;
+}
+
+.videos video {
+    width: 535px;
+    height: 280px;
+    padding: 10px;
+} 
+
+.videos iframe {
+    width: 535px;
+    height: 280px;
+    padding: 10px;
+}
+
+.hobbies-address {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.hobbies-address div:first-child {
+    margin-right: 397px;
+}
+
+.hobbies-address p::before {
+    content: url(/img/hobbies-arrow.svg);
+    padding-right: 15px;
+}
+
+.hobbies-address iframe {
+    width: 340px;
+    height: 250px;
+}
+
+footer {
+    background: rgba(242, 242, 242, 1);
+    color: #828282;
+    height: 50px;
+}
+
+footer p {
+    margin: 0;
+    margin-left: 30px;
+    padding-top: 16px;
+}

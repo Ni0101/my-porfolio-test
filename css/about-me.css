@@ -258,7 +258,7 @@ h3 {
 }
 
 .hobbies-address p::before {
-    content: url(/img/hobbies-arrow.svg);
+    content: url(/img/hobbies-arrow.jpg);
     padding-right: 15px;
 }
 

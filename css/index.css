@@ -47,7 +47,7 @@
 
 .sidebar {
     flex: 1;
-    margin-right: 100px;
+    margin-right: 80px;
 }
 
 .avatar {
@@ -89,7 +89,7 @@
     line-height: 3;
 }
 
-.link--my-portfolio {
+.link--active {
     font-size: 1em;
     color: black;
     border-left: 5px solid #EB5757;
@@ -101,7 +101,7 @@
     align-items: center;
 }
 
-.link--about-me {
+.link--gray {
     color: #BDBDBD;
 }
 
@@ -143,9 +143,8 @@
 }
 
 .search {
-    display: flex;
-    align-items: center;
-
+    display: inline-block;
+    position: relative;
 }
 
 .search input::placeholder {
@@ -154,8 +153,8 @@
 }
 
 .search-input {
-    border-radius: 20px 0 0 20px;
-    width: 210px;
+    border-radius: 20px;
+    width: 260px;
     background: #F2F2F2;
     border: none;
     height: 40px;
@@ -163,11 +162,11 @@
 }
 
 .search-image {
-    border-radius: 0 20px 20px 0;
+    position: absolute;
     background: #F2F2F2;
     border: none;
-    height: 20px;
-    padding: 10px;
+    top: 12px;
+    right: 20px;
 }
 
 .main-content-link a {
@@ -202,12 +201,11 @@ section {
 .cards__list {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -10px;
+    margin: 0 -8px;
 }
 
 .card {
-    width: 20%;
-    padding: 10px;
+    padding: 8px;
 }
 
 .card-inner {
@@ -215,10 +213,11 @@ section {
     display: flex;
     border-radius: 10px;
     overflow: hidden;
+    width: 200px;
 }
 
 .card__image {
-    width: 100%;
+    max-width: 100%;
 }
 
 .card__content {
@@ -227,22 +226,27 @@ section {
     left: 0;
     right: 0;
     background: rgba(255, 255, 255, 0.9);
+    border-radius: 0 0px 10px 10px;
 }
 
 .card__content__title {
     color: #000000;
     font-size: 1.125em;
     font-weight: bold;
+    line-height: 22px;
     margin-left: 19px;
     margin-bottom: 0;
+    margin-top: 16px;
 }
 
 .card__content__description {
     font-size: 1em;
     color: #828282;
+    line-height: 20px;
     margin-left: 19px;
     margin-top: 0;
     font-style: italic;
+    margin-bottom: 16px;
 }
 
 footer {

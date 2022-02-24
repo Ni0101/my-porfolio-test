@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-    color: #FF00FF;
+    color: rgba(235, 87, 87, 1)
 }
 
 a:active {

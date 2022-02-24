@@ -94,20 +94,20 @@
     line-height: 3;
 }
 
-.link--my-portfolio {
+.link--active {
     font-size: .875em;
     color: black;
     margin-bottom: 20px;
-}
-
-.link--about-me {
-    color: #BDBDBD;
     border-left: 5px solid #EB5757;
     height: 30px;
     margin-left: -30px;
     padding-left: 25px;
     display: flex;
     align-items: center;
+}
+
+.link--gray {
+    color: #BDBDBD;
 }
 
 .sidebar__link img {
@@ -176,8 +176,7 @@ h3 {
 .percent {
     background: #EB5757;
     width: var(--percent);
-    height: 5px;
-    border: 2px solid #EB5757;
+    border: 2.5px solid #EB5757;
 }
 
 .percent-table th {
@@ -195,6 +194,16 @@ h3 {
     padding-left: 30px;
 }
 
+.percent-table__row {
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.percent-table__row p {
+    padding-left: 20px;
+}
+
 .percent-table img {
     vertical-align: bottom;
     padding-right: 10px;
@@ -207,14 +216,15 @@ h3 {
 } */
 
 .favorited-songs {
-    display: flex;
     margin-bottom: 70px;
+    overflow: auto;
 }
 
 .favorited-songs div {
     display: flex;
     align-items: center;
     margin-right: 60px;
+    float: left;
 }
 
 .favorited-songs div p:first-child {

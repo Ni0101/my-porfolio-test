@@ -195,12 +195,12 @@ h3 {
 }
 
 .percent-table__row {
-    padding-right: 30px;
     display: flex;
     align-items: center;
+    height: 50px;
 }
 
-.percent-table__row p {
+.percent-table__number {
     padding-left: 20px;
 }
 
@@ -217,7 +217,12 @@ h3 {
 
 .favorited-songs {
     margin-bottom: 70px;
-    overflow: auto;
+}
+
+.favorited-songs::after {
+    content: "";
+    clear: both;
+    display: block;
 }
 
 .favorited-songs div {
